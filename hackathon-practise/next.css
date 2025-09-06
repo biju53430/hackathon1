@@ -1,0 +1,201 @@
+body{
+    height: 2000px;
+}
+
+
+#heading-bg{
+    height: 400px;
+    width: 100%;
+    background-color:rgb(25, 25, 136);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+#heading-text{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    left: 650px;
+    font-size: 3vh;
+}
+#slogan-text{
+    font-size: 1.5vh;
+    position: absolute;
+    top: 30px;
+    color: white;
+    left: 550px;
+
+    width: 400px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.box{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+#box{
+height: 170px;
+width: 250px;
+background-color: rgb(46, 58, 168);
+position: relative;
+top: 150px;
+border-radius: 20px;
+left: 230px;
+}
+#inner-box{
+    color: white;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+  
+    font-weight: 1200;
+    font-size: 4.5vh;   
+}
+#active{
+    font-size: 1.8vh;
+    position: relative;
+    right: 85px;
+    bottom: 20px;
+    font-weight:900;
+}
+#innerbox-text{
+    font-size: 1.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    position: relative;
+    bottom: 62px;
+ left: 30px;
+}
+#innerbox-text-first{
+    font-size: 1.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    position: relative;
+    bottom: 75px;
+ left: 30px;
+}
+#job-logo{
+    height: 100px;
+    width: 100px;
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+}
+#dark-mode{
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    cursor: pointer;
+    font-size:5vh ;
+}
+
+
+.darkmode{
+    background-color: black;
+}
+.bg{
+    background-color: rgb(35, 31, 55) !important;
+}
+.lightmode{
+    background-color: white;
+}
+
+.second-box{
+    height: 700px;
+    background-color: rgb(45, 40, 93);
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+.last-box1{
+    color: white;
+    position: relative;
+    left: 100px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.inner-box1{
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    color: rgb(198, 162, 162);
+    left: -15px;
+}
+#inner-boxtext{
+    position: relative;
+    bottom: 20px;
+    left: 2px;
+}
+
+.platform{
+    height: 200px;
+    width: 300px;
+    color: white;
+    position: relative;
+    left: 600px;
+    bottom: 230px;
+    gap: 10px;
+}
+.company{
+     height: 200px;
+    width: 300px;
+    color: white;
+    position: relative;
+    left: 900px;
+    bottom: 450px;
+    gap: 10px;
+}
+.resources{
+      height: 200px;
+    width: 300px;
+    color: white;
+    position: relative;
+    left: 1200px;
+    bottom: 670px;
+    gap: 10px;
+
+}
+#hrr{
+    position: relative;
+    bottom: 500px;
+    z-index: 100;
+}
+#stay-update{
+    height: 50px;
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+}
+#inner-stay{
+    color: white;
+}
+#hr1{
+    position: relative;
+    bottom: 450px;
+}
+#footer{
+ position: relative;
+ bottom: 430px;
+ color: white;
+ left: 100px;
+}
+#action{
+    position: relative;
+    bottom: 50px;
+    left: 1000px;
+}
+#submit{
+    height: 30px;
+    width: 100px;
+    background-color: pink;
+    border-radius: 20px;
+}
